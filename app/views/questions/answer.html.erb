@@ -1,3 +1,9 @@
-<h1><%= @question %></h1>
-<h1><%= @answer %></h1>
+<div class="message">
+  <p><%= @question %></p>
+  <p><em> -You</em></p>
+</div>
+<div class="message">
+  <p><%= @answer %></p>
+  <p><em> -Your coach</em></p>
+</div>
 <p><%= link_to "Ask a new question", ask_path%></p>
